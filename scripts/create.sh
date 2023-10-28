@@ -29,8 +29,20 @@ create_dir "./assets/UI/Sprites"
 create_dir "./assets/UI/Fonts"
 create_dir "./Docs/Design"
 create_dir "./Docs/Technical"
+create_dir "./Config"
+create_dir "./Config/GameSettings"
+create_dir "./Config/BuildSettings"
+create_dir "./LocalStorage"
+create_dir "./LocalStorage/SaveGames"
+create_dir "./LocalStorage/UserSettings"
+create_dir "./WORKFLOWS"
+create_dir "./WORKFLOWS/Configurations"
+create_dir "./WORKFLOWS/Templates"
+create_dir "./WORKFLOWS/Scripts"
 
 # 创建 README.md 文件
 touch "./README.md"
 
 echo "目录结构已创建完成！"
+
+

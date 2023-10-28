@@ -41,6 +41,18 @@ Tarot
 │       ├── Icons              - 游戏内图标。
 │       ├── Sprites            - 用于UI的精灵图像。
 │       └── Fonts              - 游戏使用的字体文件。
+├── Config                      - 存放配置文件的目录。
+│   ├── GameSettings           - 游戏设置相关的配置文件，例如图形、音量和控制选项。
+│   └── BuildSettings          - 游戏客户端构建和发布的相关配置。
+│
+├── LocalDatabase               - 游戏前端本地保存数据的相关文件和脚本。
+│   ├── SavedGames             - 保存游戏状态和进度的数据。
+│   └── UserSettings           - 用户自定义设置，如控制映射或显示设置。
+│
+├── CI_CD                       - 持续集成和持续部署相关的文件。
+│   ├── Scripts                - CI/CD相关的脚本，如自动构建和测试脚本。
+│   ├── Templates              - CI/CD流程模板，例如GitHub Actions的YAML文件。
+│   └── Configurations         - CI/CD的配置文件。
 │
 ├── Docs                        - 项目文档目录。
 │   ├── Design                 - 设计文档，描述游戏设计、机制等。
