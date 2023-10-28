@@ -3,5 +3,12 @@
   "uuid": "f11c80b5-8c4e-4db1-8b74-a3df71534dc1",
   "creator": {
     "version": "3.6.2"
+  },
+  "scripts": {
+    "test": "mocha --recursive **/*.spec.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
   }
 }
